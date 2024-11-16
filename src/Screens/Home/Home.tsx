@@ -9,7 +9,7 @@ const Home = (): React.JSX.Element => {
     <SafeAreaView style={{flex: 1}}>
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
         <Pressable
-          onPress={() => navigation.navigate("SearchScreen")
+          onPress={() => navigation.navigate("myDarwerScreen")
           }>
           <Text style={{fontSize: 40}}>First Screen Home</Text>
         </Pressable>
